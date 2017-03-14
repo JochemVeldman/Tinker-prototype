@@ -9,7 +9,7 @@ body {
 }
 
 .adresgegevens-opgeven {
-    width: 37%;
+    width: 32%;
     height: 60px;
     font-size: 20px;
     float: left;
@@ -20,7 +20,7 @@ body {
 }
 
 .adresgegevensnaar-opgeven {
-    width: 37%;
+    width: 32%;
     margin-right: 2%;
     height: 60px;
     font-size: 20px;
@@ -29,9 +29,10 @@ body {
 }
 
 .adresgegevensdatum {
-    width: 16%;
+    width: 10%;
     height: 60px;
     font-size: 20px;
+    margin-right: 2%;
     float: left;
     font-family: Helvetica;
 }
@@ -66,6 +67,10 @@ input[type=submit] {
     margin-bottom: 2%;
 }
 
+input[placeholder] {
+    text-align: center;
+}
+
 input[value="Bekijk prijzen"] { 
     padding: 10px;
 }
@@ -83,3 +88,13 @@ input[value="Bekijk prijzen"] {
     margin-top: 3%;
     font-family: Helvetica;
 }
+
+select {
+    height: 60px;
+    border: none;
+    width: 14%;
+    
+}
+
+
+
