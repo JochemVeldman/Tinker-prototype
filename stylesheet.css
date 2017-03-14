@@ -1,15 +1,3 @@
-.adresgegevens-opgeven {
-    width: 22%;
-    height: 60px;
-    font-size: 20px;
-    float: left;
-    margin-top: 18px;
-}
-
-img {
-    float: left;
-}
-
 body {
     background-image: url(20161225_084926-3.jpg);
     background-size: cover;
@@ -18,15 +6,23 @@ body {
     background-position: center;
 }
 
+.adresgegevens-opgeven {
+    width: 40%;
+    height: 60px;
+    font-size: 20px;
+    float: left;
+    margin-top: 18px;
+}
+
 .adresgegevensnaar-opgeven {
-    width: 22%;
+    width: 40%;
     height: 60px;
     font-size: 20px;
     float: left;
 }
 
 .adresgegevensdatum {
-    width: 13%;
+    width: 20%;
     height: 60px;
     font-size: 20px;
     float: left;
@@ -35,7 +31,15 @@ body {
 .containerinput {
     width: 70%;
     margin-left: 15%;
-    height: 250px;
-    background-color: aqua;
+    height: 40%;
+    position: relative;
+    background-color: #A1177F;
     margin-top: 200px;
+}
+
+.TekstBijInputContainer {
+    font-size: 50px;
+    text-align: center;
+    color: #eeeeee;
+    
 }
