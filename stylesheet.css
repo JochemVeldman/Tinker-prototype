@@ -9,7 +9,7 @@ body {
 }
 
 .adresgegevens-opgeven {
-    width: 32%;
+    width: 26%;
     height: 60px;
     font-size: 20px;
     float: left;
@@ -20,7 +20,7 @@ body {
 }
 
 .adresgegevensnaar-opgeven {
-    width: 32%;
+    width: 26%;
     margin-right: 2%;
     height: 60px;
     font-size: 20px;
@@ -38,7 +38,7 @@ body {
 }
 
 .containerinput {
-    width: 70%;
+    width: 80%;
     margin: auto;   
     position: relative;
     background-color: #A1177F;
@@ -92,9 +92,40 @@ input[value="Bekijk prijzen"] {
 select {
     height: 60px;
     border: none;
-    width: 14%;
+    width: 15%;
+    margin-left: 2%;
+    margin-right: 3%;
     
 }
+
+.SubmitBekijkPrijzen {
+    background-color: #0065EA;
+    color: #eeeeee;
+    cursor:pointer;
+    text-decoration: none;
+    width: 30%;
+    border: none;
+    margin-left: 67%;
+    font-size: 25px;
+    font-family: Helvetica;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+
+
+.verwijderknop {
+    background-color: #0065EA;
+    color: #eeeeee;
+    cursor:pointer;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 18px;
+    width: 100px;
+    font-family: Helvetica;
+    margin-left: 40%;
+}
+
 
 
 

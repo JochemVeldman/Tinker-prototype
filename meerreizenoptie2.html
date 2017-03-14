@@ -15,7 +15,16 @@
         <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
         <link href="reset.css" type="text/css" rel="stylesheet"/>
         <link href="index.html" rel="stylesheet">
-            
+        
+    <style>html { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.material.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.material.mobile.min.css" />
+
+    <script src="https://kendo.cdn.telerik.com/2017.1.223/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2017.1.223/js/kendo.all.min.js"></script>
+        
+
     <style>html { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }</style>
     <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.common-material.min.css" />
     <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.material.min.css" />
@@ -35,6 +44,15 @@
                     });
                 });
             </script>
+        <script>
+                $(document).ready(function () {
+
+                    // create DateTimePicker from input HTML element
+                    $("#datetimepicker2").kendoDateTimePicker({
+                        value:new Date()
+                    });
+                });
+            </script>
 
     <body>
         
@@ -44,7 +62,7 @@
         <input class="adresgegevens-opgeven" placeholder="Van:" name="fname" type="text">
         <input class="adresgegevensnaar-opgeven" placeholder="Naar:" name="fname" type="text">
            <div id="example">
-                <input id="datetimepicker" style="width: 100%;" />
+                <input id="datetimepicker2" style="width: 100%;" />
         </div>
             <select>
                 <option value="volvo" selected>Aantal reiziger</option>
@@ -56,8 +74,17 @@
                 <option value="volvo">6</option>
             </select>
       </div>
-    
-        <a href="meerreizenoptie2.html"><p class="TekstVoorMeerdereReizenBoeken">Voeg meer bestemmingen toe</p></a>
+        
+        <div class="flex">
+        <input class="adresgegevens-opgeven" placeholder="Van:" name="fname" type="text">
+        <input class="adresgegevensnaar-opgeven" placeholder="Naar:" name="fname" type="text">
+           <div id="example">
+                <input id="datetimepicker" style="width: 100%;" />
+            </div>
+            <a href="index3.html"><div class="verwijderknop"><p>Verwijder</p>
+            </div></a>
+      </div>    
+    <a href="index3.html"><p class="TekstVoorMeerdereReizenBoeken">Voeg meer bestemmingen toe</p></a> 
 
     <input type="submit" value="Bekijk prijzen">
     </form>
