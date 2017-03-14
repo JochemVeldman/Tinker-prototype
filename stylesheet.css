@@ -4,34 +4,41 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
+    height: 100%;
 }
 
 .adresgegevens-opgeven {
-    width: 40%;
+    width: 37%;
     height: 60px;
     font-size: 20px;
     float: left;
     margin-top: 18px;
+    margin-left: 3%;
+    margin-right: 2%;
+    font-family: Helvetica;
 }
 
 .adresgegevensnaar-opgeven {
-    width: 40%;
+    width: 37%;
+    margin-right: 2%;
     height: 60px;
     font-size: 20px;
     float: left;
+    font-family: Helvetica;
 }
 
 .adresgegevensdatum {
-    width: 20%;
+    width: 16%;
     height: 60px;
     font-size: 20px;
     float: left;
+    font-family: Helvetica;
 }
 
 .containerinput {
     width: 70%;
-    margin-left: 15%;
-    height: 40%;
+    margin: auto;   
     position: relative;
     background-color: #A1177F;
     margin-top: 200px;
@@ -41,5 +48,38 @@ body {
     font-size: 50px;
     text-align: center;
     color: #eeeeee;
+    font-family: Helvetica;
+    padding-top: 1%;
     
+}
+
+input[type=submit] { 
+    background-color: #0065EA;
+    color: #eeeeee;
+    cursor:pointer;
+    text-decoration: none;
+    width: 30%;
+    border: none;
+    margin-left: 67%;
+    font-size: 25px;
+    font-family: Helvetica;
+    margin-bottom: 2%;
+}
+
+input[value="Bekijk prijzen"] { 
+    padding: 10px;
+}
+
+.flex{
+  display: flex;
+  align-items: baseline;
+}
+
+.TekstVoorMeerdereReizenBoeken {
+    float: left;
+    font-size: 22px;
+    color: #eeeeee;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-family: Helvetica;
 }

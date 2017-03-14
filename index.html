@@ -12,14 +12,17 @@
 
     <body>
         
-    <div class="containerinput">
     <form class="containerinput" action="/action_page.php">
-            <p class="TekstBijInputContainer">Uw taxi van en naar de luchthaven, door heel Europa</p>
-            <input class="adresgegevens-opgeven" type="text" placeholder="Van" name="fname"><br>
-            <input class="adresgegevensnaar-opgeven" type="text" placeholder="Naar" name="fname">
-            <input class="adresgegevensdatum" type="text" placeholder="Datum:" name="fname">
+      <p class="TekstBijInputContainer">Uw taxi van en naar de luchthaven, door heel Europa</p>
+      <div class="flex">
+        <input class="adresgegevens-opgeven" placeholder="Van" name="fname" type="text">
+        <input class="adresgegevensnaar-opgeven" placeholder="Naar" name="fname" type="text">
+        <input class="adresgegevensdatum" placeholder="Datum:" name="fname" type="text">
+      </div>
+        
+    <p class="TekstVoorMeerdereReizenBoeken">Voeg meer bestemmingen toe</p>
+    <input type="submit" value="Bekijk prijzen">
     </form>
-    </div>
     
         
     </body>
