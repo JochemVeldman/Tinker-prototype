@@ -14,9 +14,9 @@
                 <div class="title">
                     <h2 id="title_tekst"><b><i>Uw informatie</i></b></h2>
                 </div>
-                <img id="optie1" src="optie1.png"/>
-                <img id="optie2" src="optie2.png"/>
-                <img id="optie3" src="optie3.png"/>
+                <img id="optie1" onclick="optiefunctie(this, 1)" src="optie1.png"/>
+                <img id="optie2" onclick="optiefunctie(this, 1)" src="optie2.png"/>
+                <img id="optie3" onclick="optiefunctie(this, 1)" src="optie3.png"/>
                 <img id="kopje" src="kopjes.png"/>
                 <div id="bagage1">
                     <form>
@@ -38,5 +38,10 @@
                 </div>
                 </form>
             </div>
+        <script>
+            function optiefunctie(elmnt,clr) {
+            elmnt.style.opacity = clr;
+            }
+        </script>
         </body>
     </html>
