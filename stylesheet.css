@@ -39,10 +39,11 @@ body {
 
 .containerinput {
     width: 70%;
-    margin: auto;   
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 1%;
     position: relative;
     background-color: #A1177F;
-    margin-top: 200px;
 }
 
 .TekstBijInputContainer {
@@ -54,7 +55,7 @@ body {
     
 }
 
-input[type=submit] { 
+.bekijkprijzen {
     background-color: #0065EA;
     color: #eeeeee;
     cursor:pointer;
@@ -65,15 +66,17 @@ input[type=submit] {
     font-size: 25px;
     font-family: Helvetica;
     margin-bottom: 2%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 2%;
 }
+
 
 input[placeholder] {
     text-align: center;
 }
 
-input[value="Bekijk prijzen"] { 
-    padding: 10px;
-}
+
 
 .flex{
   display: flex;
@@ -87,6 +90,7 @@ input[value="Bekijk prijzen"] {
     margin-left: 3%;
     margin-top: 3%;
     font-family: Helvetica;
+    margin-bottom: 100px;
 }
 
 select {
@@ -291,6 +295,3 @@ label
     font-family: "Helvetica", cursive;
     font-size: 35px;
 }
-
-
-
