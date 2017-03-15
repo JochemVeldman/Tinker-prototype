@@ -66,7 +66,7 @@ body {
 
 .big_box {
     width: 70%;
-    height: 80%;
+    height: 71.5%;
     margin: auto;
     margin-top: 5%;
     background: rgba(255,255,255,0.85)
@@ -99,9 +99,9 @@ body {
 
 #kopje {
     position: absolute;
-    width: 1%;
-    margin-left: -940px;
-    margin-top: 320px;
+    width: 40%;
+    margin-left: -62.6%;
+    margin-top: 22%;
 }
 
 label
@@ -165,14 +165,18 @@ select {
 }
 
 #blist {
-    margin-top: 20px;
+    margin-top: 2%;
     margin-left: 90px;
 }
 #bagage2 {
     position: absolute;
-    margin-left: 278px;
-    margin-top: -81px
+    margin-left: 18%;
+    margin-top: 26.5%
     
+}
+#bagage1 {
+    position: absolute;
+    margin-top: 26.5%
 }
 #binput2 {
     width: 25px;
@@ -191,10 +195,12 @@ select {
     margin-left: 162px;    
 }
 #exit{
-    margin-left: 75%;
-    width: 21%;
+    position: absolute;
+    margin-left: 54%;
+    width: 15%;
     background: #a1177f;
-    height: 10%;
+    height: 7%;
+    margin-top: 31%
 }
 #exit_tekst {
     color: white;
