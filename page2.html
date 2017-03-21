@@ -9,19 +9,20 @@
     <link href="https://fonts.googleapis.com/css?family=Domine|Montserrat" rel="stylesheet">
         
         </head>
+        <img class="navbar" src="HeaderTinker.png">
         <body>
             <div class="big_box">
                 <div class="title">
-                    <h1 id="title_tekst"><b><i>Uw informatie</i></b></h1>
+                    <h1 id="title_tekst"><b><i>Reisklasse</i></b></h1>
                 </div>
                 <div id="opties">
-                <img id="optie1" src="optie1.png">
-                <img id="optie2" src="optie2.png">
-                <img id="optie3" src="optie3.png">
+                <img id="optie1" src="optie1.png" onclick="optiefunctie(this,1)">
+                <img id="optie2" src="optie2.png" onclick="optiefunctie(this,1)">
+                <img id="optie3" src="optie3.png" onclick="optiefunctie(this,1)">
                 </div>
-                <div id="terug">
+                <a href="index.html"><div id="terug">
                     <h2 id="terug_tekst"><b>Terug</b></h2>
-                </div>
+                </div></a>
                 <div class="big_box" id="informatie">
                 <b><h2 class="wow">Mijn informatie</b></h2>
                 <img id="progressie1" src="progressie1.png">
@@ -43,15 +44,25 @@
                     <p>4 personen</p>
                     </div>
                     </div>
-                    <div id="exit">
+                    <a href="page3.html"><div id="exit">
                         <p id="exit_tekst"><b><i>Ga verder</b></i></p>
-                </div>
+                </div></a>
+                
                 </form>
             </div>
             </div>
         <script>
             function optiefunctie(elmnt,clr) {
+            var x = 0;
+            if (x = 0) {
             elmnt.style.opacity = clr;
+            x += 1;
+            } else {
+                document.getElementById("optie1").style.opacity = 0.5;
+                document.getElementById("optie2").style.opacity = 0.5;
+                document.getElementById("optie3").style.opacity = 0.5;
+                elmnt.style.opacity = clr;                
+            }
             }
         </script>
         </body>
