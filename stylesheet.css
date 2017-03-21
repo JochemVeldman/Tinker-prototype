@@ -2,19 +2,16 @@ header img {
     position: absolute;
     width: 100%;
     top: 0px;
-    
-    
-    
-}
+    }
 
 body {
-   ;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 100%;
+    background-image: url(20161225_084926-3.jpg); 
 }
 
 .adresgegevens-opgeven {
@@ -203,25 +200,25 @@ img {
 }
 
 #optie1 {
-    margin: auto;
-    margin-top: 1%;
     opacity: 0.5;
-    margin-left: 6%
+    margin-top: 13%;
+    height: 14%;
+    margin-left: 4%;
+    
 
 }
 
 #optie2 {
-    position: absolute;
-    margin-top: 9.5%;
-    margin-left: -57%;
     opacity: 0.5;
+    margin-left: 2%
 }
 
 #optie3 {
-    position: absolute;
-    margin-top: 14.2%;
-    margin-left: -58.3%;
+
     opacity: 0.5;
+    height: 13.7%;
+    margin-left: 4.3%
+
     
 }
 #optie1:hover {
@@ -233,6 +230,59 @@ img {
 #optie3:hover {
     opacity: 1.0;
 }
+#exit{
+    position: absolute;
+    margin-left: 4%;
+    width: 90%;
+    background: #a1177f;
+    height: 9%;
+    margin-top: 60%
+}
+#exit_tekst {
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: "Helvetica", cursive;
+    font-size: 32px;
+}
+
+select {
+    background-color: #d9d9d9;
+}
+#informatie {
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -0%;
+    width: 17%
+}
+h2 {
+    text-align: center;
+    font-family: "Helvetica";
+        
+}
+.wow{
+    color: #a1177f;
+    padding: inherit;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 120%;
+}
+.infobox{
+    margin-bottom: 9%;
+    font-family: "Helvetica";
+}
+.biginfobox {
+    margin-top: 10%;
+    margin-left: 4%;
+}
+#progressie1 {
+    position: relative;
+    margin-left: -200%;
+    width: 150%;
+}
+
+/* page 3*/
+
 #kopje {
     position: absolute;
     width: 40%;
@@ -296,23 +346,4 @@ label
 #binput5 {
     width: 25px;
     margin-left: 162px;    
-}
-#exit{
-    position: absolute;
-    margin-left: 54%;
-    width: 15%;
-    background: #a1177f;
-    height: 7%;
-    margin-top: 30%
-}
-#exit_tekst {
-    color: white;
-    text-align: center;
-    padding-top: 1.5%;
-    font-family: "Helvetica", cursive;
-    font-size: 35px;
-}
-
-select {
-    background-color: #d9d9d9;
 }
