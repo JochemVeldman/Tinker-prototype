@@ -302,3 +302,7 @@ label
     font-family: "Helvetica", cursive;
     font-size: 35px;
 }
+
+select {
+    background-color: #d9d9d9;
+}
