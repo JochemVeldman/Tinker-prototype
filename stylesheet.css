@@ -2,13 +2,9 @@ header img {
     position: absolute;
     width: 100%;
     top: 0px;
-    
-    
-    
 }
 
 body {
-   ;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -62,11 +58,11 @@ body {
 }
 
 .TekstBijInputContainer {
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     color: #eeeeee;
     font-family: Helvetica;
-    padding-top: 1%;
+    padding-top: 3%;
     
 }
 
@@ -327,9 +323,9 @@ select {
 
 .tekstdieaangeeftwattinkerdoet {
     width: 40%;
-    height: 10%;
+    height: 15%;
     margin-left: 30%;
-    margin-top: -5%;
+    margin-top: -7%;
     position: absolute;
-    background-color: black;  
+    background-color: #71185a;  
 }
