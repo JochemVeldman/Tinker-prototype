@@ -297,7 +297,7 @@ h2 {
 }
 #progressie1 {
     position: relative;
-    margin-left: -200%;
+    margin-left: -180%;
     width: 150%;
 }
 
@@ -393,7 +393,6 @@ h2 {
     width: 25px;
 <<<<<<< HEAD
     margin-left: 162px;    
-=======
     margin-left: 142px;
 
 <<<<<<< HEAD
@@ -536,13 +535,13 @@ input[type='checkbox'] {
     margin-top: 20%;
     margin-left: 25%;   
 }
-=======
+
 /*page 3*/
 #exitbag{
     position: absolute;
     margin-left: 13%;
     width: 80%;
-    background: #a1177f;
+    background-color: #a1177f;
     height: 8%;
     margin-top: 27%;
 }
@@ -554,4 +553,13 @@ input[type='checkbox'] {
     font-family: "Helvetica", cursive;
     font-size: 35px;
 }
->>>>>>> master
+label {
+    font-family: "Helvetica";
+    color: #a1177f;
+}
+
+#progressie2 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 21%
+}
