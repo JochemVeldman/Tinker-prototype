@@ -297,7 +297,7 @@ h2 {
 }
 #progressie1 {
     position: relative;
-    margin-left: -200%;
+    margin-left: -180%;
     width: 150%;
 }
 
@@ -557,4 +557,9 @@ label {
     font-family: "Helvetica";
     color: #a1177f;
 }
->>>>>>> master
+
+#progressie2 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 21%
+}
