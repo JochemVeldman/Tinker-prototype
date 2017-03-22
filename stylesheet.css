@@ -466,7 +466,7 @@ select {
 }
 
 .persoonsgegevens-opgeven {
-    width: 70%;
+    width: 50%;
     height: 40px;
     font-size: 20px;
     float: left;
@@ -478,28 +478,28 @@ select {
 
 .tekstbijpersoonsgegevens {
     padding-top: 80px;
-    padding-left: 140px;
+    padding-left: 10px;
     color: #a1177f;
     font-size: 24px;
 }
 
 .tekstbijpersoonsgegevens2 {
     padding-top: 115px;
-    padding-left: 150px;
+    padding-left: 10px;
     color: #a1177f;
     font-size: 24px;
 }
 
 .tekstbijpersoonsgegevens3 {
     padding-top: 60px;
-    padding-left: 115px;
+    padding-left: 10px;
     color: #a1177f;
     font-size: 24px;
 }
 
 input[type='checkbox'] {
     margin-top: 70px;
-    margin-left: -350px;
+    margin-left: -520px;
 }
 .bekijkprijzen2 {
     background-color: #a1177f;
