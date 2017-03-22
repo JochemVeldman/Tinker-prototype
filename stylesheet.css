@@ -206,8 +206,6 @@ img {
     margin-top: 13%;
     height: 14%;
     margin-left: 4%;
-    
-
 }
 
 #optie2 {
@@ -292,14 +290,6 @@ h2 {
     margin-top: 22%;
 }
 
-label
-{
-    display:inline-block;
-    font-family: "Helvetica";
-    color: #a1177f;
-}
-
-
 #binput {
     width: 25px;
     margin-left: 43px;    
@@ -345,12 +335,12 @@ label
     width: 25px;
     margin-left: 61px;    
 }
+
 #binput5 {
     width: 25px;
     margin-left: 162px;    
-<<<<<<< HEAD
 }
-=======
+
 }
 #exit{
     position: absolute;
@@ -403,4 +393,86 @@ select {
     height: 9%;
     margin-top: 0%;
     border-radius: 5px;
+}
+
+.gegevensinputveld {
+    position: absolute;
+}
+
+.tekstradiobutton {
+    font-family: Helvetica;
+    display: inline;
+    color: black;
+}
+
+.persoonsgegevens-opgeven {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 2%;
+    font-family: Helvetica;
+}
+
+.tekstbijpersoonsgegevens {
+    padding-top: 80px;
+    padding-left: 140px;
+    color: #a1177f;
+    font-size: 24px;
+}
+
+.tekstbijpersoonsgegevens2 {
+    padding-top: 115px;
+    padding-left: 150px;
+    color: #a1177f;
+    font-size: 24px;
+}
+
+.tekstbijpersoonsgegevens3 {
+    padding-top: 60px;
+    padding-left: 115px;
+    color: #a1177f;
+    font-size: 24px;
+}
+
+input[type='checkbox'] {
+    margin-top: 70px;
+    margin-left: -350px;
+}
+.bekijkprijzen2 {
+    background-color: #a1177f;
+    color: #eeeeee;
+    cursor:pointer;
+    text-decoration: none;
+    width: 100px;
+    border: none;
+    margin-left: 5%;
+    font-size: 25px;
+    font-family: Helvetica;
+    margin-bottom: 2%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 5px;
+    height: 40px;
+}
+
+#title_tekst2 {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: "Helvetica", cursive;
+    font-size: 70px;
+}
+
+.title2 {
+    position: absolute;
+    background-color: #71185a;
+    height: 20%;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;   
 }
