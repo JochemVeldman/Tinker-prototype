@@ -365,6 +365,7 @@ label
 #binput5 {
     width: 25px;
     margin-left: 162px;    
+
 <<<<<<< HEAD
 }
 =======
@@ -420,4 +421,9 @@ select {
     height: 9%;
     margin-top: 0%;
     border-radius: 5px;
+}
+
+/*page 3*/
+exitbag{
+    
 }
